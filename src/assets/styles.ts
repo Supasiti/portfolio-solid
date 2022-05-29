@@ -57,3 +57,8 @@ export const styles = {
     xl: 1536,
   },
 };
+
+type Breakpoint = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+
+export const mediaQuery = (breakpoint: Breakpoint) =>
+  `@media screen and (min-width: ${styles.breakpoints[breakpoint]}px)`;

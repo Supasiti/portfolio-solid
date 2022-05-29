@@ -6,4 +6,5 @@ export const rootClass = css({
   height: '100vh',
   width: '100vw',
   backgroundImage: `linear-gradient(${styles.color.secondary.darker}, ${styles.color.tertiary.darker})`,
+  overflow: 'hidden',
 });

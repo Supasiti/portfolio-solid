@@ -18,11 +18,30 @@ export const styles = {
     },
     tertiary: {
       //java
-      lighter: '#77C1B7',
+      lighter: '#03edd6',
       light: '#55B1A5',
       main: '#2A9D8F',
       dark: '#227E72',
       darker: '#1B655B',
+    },
+    background: {
+      default: '#264653',
+    },
+    border: {
+      primary: '1px solid #F4A261',
+      secondary: '1px solid #264653',
+      tertiary: '1px solid #03edd6',
+    },
+    grey: {
+      [100]: '#f1f5f9',
+      [200]: '#e2e8f0',
+      [300]: '#cbd5e1',
+      [400]: '#94a3b8',
+      [500]: '#64748b',
+      [600]: '#475569',
+      [700]: '#334155',
+      [800]: '#1e293b',
+      [900]: '#0f172aß',
     },
   },
   shadow: {

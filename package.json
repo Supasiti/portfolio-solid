@@ -10,6 +10,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^17.0.36",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0",
     "eslint-plugin-import": "^2.26.0",
@@ -21,6 +22,7 @@
     "vite-plugin-solid": "^2.2.6"
   },
   "dependencies": {
+    "@emotion/css": "^11.9.0",
     "solid-js": "^1.4.2"
   }
 }
